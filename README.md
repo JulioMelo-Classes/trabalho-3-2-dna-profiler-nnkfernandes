@@ -31,3 +31,30 @@ Anny Klarice Fernandes Souza
 [anny.klarice.fernandes.127@ufrn.edu.br]
 
 ps: tenha piedade na correção, professor 😓
+
+# Avaliação
+
+1. Ler e validar os argumentos da linha de comando | 7 / 10
+- faltou validar a ordem dos parâmetros
+
+2. Ler e validar os dados da base de dados e armazená-los em uma classe apropriada | 7 / 10
+- Embora sua classe suporte, você não fez uma implementação que suportasse que a base de dados tivesse diferentes colunas
+
+3. Separar a interface textual das demais classes do sistema concentrando os couts e cins em um único objeto | 10 / 10
+- ok
+
+4. Implementação de uma classe para armazenar e validar o DNA de um indivíduo bem como realizar as operações de perfil | 5 / 10
+- Como conversamos, o algoritmo não está 100%.
+
+5. Implementação eficiente através do uso de referencias, quando você  julgar necessário | 6 / 10
+- Vou penalizar neste quesito o fato de que todos os atributos são públicos mesmo você não acessando eles diretamente em muitos casos. Também
+em alguns métodos você passa containers por parametro que deveriam ser referencias
+
+## Demais quesitos (Critério | Peso)
+
+1. Organização do código em src, include, data | 5 / 5
+
+2. Documentação do código usando o padrão doxygen | 5 / 5
+
+3. Implementação e documentação de arquivos de teste | 15 / 15
+- Da forma como vc vem testando você realmente domina esse quesito, sugiro que invista um pouco em testes de software, é uma área promissora =).
